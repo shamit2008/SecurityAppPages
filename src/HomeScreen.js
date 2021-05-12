@@ -57,7 +57,8 @@ export default class HomeScreen extends Component {
     'www.vk.com',
     'www.tianya.com',
     'www.huanqui.com',
-    'www.yy.com'
+    'www.yy.com',
+    'www.urmom.com'
     ]
     var website = document.getElementById("WebsiteTextField").value;
     const half = ['www.fb.com',
@@ -98,24 +99,29 @@ export default class HomeScreen extends Component {
     'www.minecraft.net',
     'www.hypixel.net',
     'www.glutenfreeonashoestring.com',
-    'www.wattpad.com'
+    'www.wattpad.com',
+    'www.example.com'
     ]
     
     
 
     website = website.toLowerCase();
+   
+    var userArray = website.split('.');
 
-    const userArray = website.split('.');
-    if (userArray.length !== 3 || userArray [0] !== ['www']){
+    if (website === ""){
+      document.getElementById("resultTextId").innerHTML = "You didn't write anything"
+      document.getElementById("resultTextId").style.color = "red"
+
+    }
+    else if (userArray.length !== 3 || userArray [0] !== 'www'){
       document.getElementById("resultTextId").innerHTML = "This is not in the valid format. (www.examplesite.com)"
       document.getElementById("resultTextId").style.color = "red"
       document.getElementById("resultTextId").style.textAlign = "center"
+
+      console.log(userArray.length)
     }
-    if (website = 'www.example.com'){
-      document.getElementById("resultTextId").innerHTML = "You didn't write anything"
-      document.getElementById("resultTextId").style.color = "red"
-      document.getElementById("resultTextId").style.textAlign = "center"
-    }
+    
     else if (dangerous.includes(website)){
     	document.getElementById("resultTextId").innerHTML = "This site is not secure. Please refrain from using it."
       document.getElementById("resultTextId").style.color = "red"
