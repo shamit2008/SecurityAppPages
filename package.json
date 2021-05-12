@@ -1,0 +1,33 @@
+{
+  "name": "Security-App",
+  "homepage": "https://github.com/shamit2008/SecurityAppPages",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "muicss": "^0.10.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-localization": "^1.0.17",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "openbrowser": "node -e 'const openBrowser = require(\"react-dev-utils/openBrowser\"); openBrowser(\"http://localhost:3000\"); process.exit();'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^3.1.0"
+  }
+}
