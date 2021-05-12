@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shamit2008/SecurityAppPages/precache-manifest.b814900d94e17414d342503dd87fba5f.js"
+  "/shamit2008/SecurityAppPages/home/precache-manifest.148323e0ca1dab21277f41d76692625e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/shamit2008/SecurityAppPages/index.html", {
+workbox.routing.registerNavigationRoute("/shamit2008/SecurityAppPages/home/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
