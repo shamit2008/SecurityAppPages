@@ -1,13 +1,13 @@
 {
-  "main.css": "/shamit2008/SecurityAppPages/static/css/main.e12a1601.chunk.css",
-  "main.js": "/shamit2008/SecurityAppPages/static/js/main.57a9f3a1.chunk.js",
-  "main.js.map": "/shamit2008/SecurityAppPages/static/js/main.57a9f3a1.chunk.js.map",
-  "runtime~main.js": "/shamit2008/SecurityAppPages/static/js/runtime~main.4468a2c1.js",
-  "runtime~main.js.map": "/shamit2008/SecurityAppPages/static/js/runtime~main.4468a2c1.js.map",
-  "static/js/2.036b3cd2.chunk.js": "/shamit2008/SecurityAppPages/static/js/2.036b3cd2.chunk.js",
-  "static/js/2.036b3cd2.chunk.js.map": "/shamit2008/SecurityAppPages/static/js/2.036b3cd2.chunk.js.map",
-  "index.html": "/shamit2008/SecurityAppPages/index.html",
-  "precache-manifest.b814900d94e17414d342503dd87fba5f.js": "/shamit2008/SecurityAppPages/precache-manifest.b814900d94e17414d342503dd87fba5f.js",
-  "service-worker.js": "/shamit2008/SecurityAppPages/service-worker.js",
-  "static/css/main.e12a1601.chunk.css.map": "/shamit2008/SecurityAppPages/static/css/main.e12a1601.chunk.css.map"
+  "main.css": "/shamit2008/SecurityAppPages/home/static/css/main.e12a1601.chunk.css",
+  "main.js": "/shamit2008/SecurityAppPages/home/static/js/main.75bd8564.chunk.js",
+  "main.js.map": "/shamit2008/SecurityAppPages/home/static/js/main.75bd8564.chunk.js.map",
+  "runtime~main.js": "/shamit2008/SecurityAppPages/home/static/js/runtime~main.1efa0bee.js",
+  "runtime~main.js.map": "/shamit2008/SecurityAppPages/home/static/js/runtime~main.1efa0bee.js.map",
+  "static/js/2.3b146fbb.chunk.js": "/shamit2008/SecurityAppPages/home/static/js/2.3b146fbb.chunk.js",
+  "static/js/2.3b146fbb.chunk.js.map": "/shamit2008/SecurityAppPages/home/static/js/2.3b146fbb.chunk.js.map",
+  "index.html": "/shamit2008/SecurityAppPages/home/index.html",
+  "precache-manifest.148323e0ca1dab21277f41d76692625e.js": "/shamit2008/SecurityAppPages/home/precache-manifest.148323e0ca1dab21277f41d76692625e.js",
+  "service-worker.js": "/shamit2008/SecurityAppPages/home/service-worker.js",
+  "static/css/main.e12a1601.chunk.css.map": "/shamit2008/SecurityAppPages/home/static/css/main.e12a1601.chunk.css.map"
 }
